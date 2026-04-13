@@ -205,8 +205,28 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 /* Global Overflow Fix */
 html, body { overflow-x: hidden !important; width: 100%; margin: 0; padding: 0; }
 .elementor-section-wrap { overflow-x: hidden !important; }
-/* Media Constraints */
-img, video, iframe { max-width: 100% !important; height: auto !important; }
+/* Media Constraints - no height:auto to avoid breaking Elementor fixed-height images */
+img, video, iframe { max-width: 100% !important; }
+
+/* Fix header: reset the Elementor translateX(-193px) transform that breaks layout on static pages */
+.elementor-element-976afb7 {
+    --e-con-transform-translateX: 0px !important;
+    --e-con-transform-translateY: 0px !important;
+}
+
+/* Fix logo image in header: constrain to a proper logo size */
+.elementor-element-7dd74aa img {
+    height: 60px !important;
+    width: auto !important;
+    max-width: 180px !important;
+    object-fit: contain !important;
+}
+
+/* Fix hero image that also has a large negative translateX */
+.elementor-element-8c1172a {
+    --e-con-transform-translateX: 0px !important;
+    --e-con-transform-translateY: 0px !important;
+}
 </style>
 </head>
 <body class="home wp-singular page-template page-template-elementor_canvas page page-id-7 wp-embed-responsive wp-theme-hello-elementor ehf-template-hello-elementor ehf-stylesheet-hello-elementor hello-elementor-default elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-7">
