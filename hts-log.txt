@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 14 Apr 2026 00:57:42 at http://localhost/Template3/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://localhost/Template3/ -O1 "C:\My Web Sites\Template3REV" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:57:47	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): localhost/Template3/wp-admin/admin-post.php
+01:05:48	Error: 	"Bad Request" (400) at link localhost/Template3/wp-admin/admin-ajax.php (from localhost/Template3/)
+01:12:06	Error: 	"Not Found" (404) at link localhost/Template3/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/css/plugins/the-plus-addons-for-elementor-page-builder/assets/images/info-box/hexagon-shape.svg (from localhost/Template3/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/css/main/number-counter/plus-nc.css?ver=6.4.11)
+01:12:06	Error: 	"Not Found" (404) at link localhost/Template3/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/css/plugins/the-plus-addons-for-elementor-page-builder/assets/images/info-box/pentagon-shape.svg (from localhost/Template3/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/css/main/number-counter/plus-nc.css?ver=6.4.11)
+01:12:06	Error: 	"Not Found" (404) at link localhost/Template3/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/css/plugins/the-plus-addons-for-elementor-page-builder/assets/images/info-box/square-rotate.svg (from localhost/Template3/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/css/main/number-counter/plus-nc.css?ver=6.4.11)
+01:12:14	Warning: 	Moved Permanently for localhost/Template3/?p=658
+01:12:14	Warning: 	File has moved from localhost/Template3/?p=658 to http://localhost/Template3/blog/
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 minutes 8 seconds : 172 links scanned, 166 files written (26720365 bytes overall) [26859968 bytes received at 27747 bytes/sec], 2.3 requests per connection
+(4 errors, 3 warnings, 0 messages)
